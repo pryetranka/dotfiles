@@ -1,11 +1,17 @@
 [General]
+Close After Last=false
 Config Revision=10
 Days Meta Infos=30
+Modified Notification=false
+Quick Open Search Mode=0
+Recent File List Entry Count=10
+Restore Window Configuration=true
 Save Meta Infos=true
 Show Full Path in Title=false
 Show Menu Bar=true
 Show Status Bar=true
 Show Tab Bar=true
+Startup Session=manual
 
 [KTextEditor Document]
 Allow End of Line Detection=true
@@ -47,7 +53,7 @@ Fallback Encoding=ISO 8859-15
 
 [KTextEditor Renderer]
 Animate Bracket Matching=false
-Schema=Normal
+Schema=KDE
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
 Word Wrap Marker=false
@@ -94,11 +100,20 @@ Word Completion=true
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
+[Konsole]
+AutoSyncronize=true
+RemoveExtension=false
+RunPrefix=
+SetEditor=false
+
 [MainWindow]
 Height 1333=1045
 State=AAAA/wAAAAD9AAAAAAAABDwAAAP1AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 2133=1084
+
+[UiSettings]
+ColorScheme=Breath Dark
 
 [filetree]
 editShade=211,190,222
