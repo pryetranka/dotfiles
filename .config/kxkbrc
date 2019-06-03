@@ -1,0 +1,13 @@
+[Layout]
+DisplayNames=
+LayoutList=
+LayoutLoopCount=-1
+Model=macbook78
+Options=,ctrl:swap_lwin_lctl,ctrl:swap_rwin_rctl
+ResetOldOptions=true
+ShowFlag=false
+ShowLabel=true
+ShowLayoutIndicator=true
+ShowSingle=false
+SwitchMode=Global
+Use=false

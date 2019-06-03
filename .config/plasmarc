@@ -1,0 +1,11 @@
+[OSD]
+Enabled=true
+
+[PlasmaToolTips]
+Delay=0.7
+
+[Theme]
+name=breeze-dark
+
+[Wallpapers]
+usersWallpapers=/home/lelek/Pictures/Backgrounds/bg_black.png,/home/lelek/Pictures/Backgrounds/john-towner-154060-unsplash-modified.jpg,/home/lelek/Pictures/Backgrounds/john-towner-154060-unsplash.jpg
