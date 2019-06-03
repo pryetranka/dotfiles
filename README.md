@@ -24,7 +24,7 @@ Software name | Description | Github | Website
   - Manjaro add memory swapfile - [view](https://wiki.manjaro.org/index.php?title=Add_a_/swapfile)
 
 - Bootloaders:
-  - rEFInd Regular theme - [view](https://github.com/munlik/refind-theme-regular)
+  - rEFInd Regular theme - [view](https://github.com/bobafetthotmail/refind-theme-regular)
 
 - Keyboard layouts:
   - XKB layout of Czech Apple keyboard - [view](https://github.com/pryetranka/xkb-layout-czech-apple)
