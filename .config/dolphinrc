@@ -23,6 +23,10 @@ ViewPropsTimestamp=2019,5,31,23,5,58
 [IconsMode]
 FontWeight=50
 
+[KPropertiesDialog]
+Height 1333=485
+Width 2133=379
+
 [MainWindow]
 Height 1333=615
 MenuBar=Disabled
