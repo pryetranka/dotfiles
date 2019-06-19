@@ -105,8 +105,74 @@ plugin=org.kde.plasma.icontasks
 [Containments][1][Applets][50][Configuration]
 PreloadWeight=0
 
+[Containments][1][Applets][50][Configuration][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
+
 [Containments][1][Applets][51][Configuration][General]
 sources=network%2Finterfaces%2Fwlp3s0%2Ftransmitter%2Fdata
+
+[Containments][1][Applets][53][Configuration][General]
+resources=[{"sourceName":"acpi/Thermal_Zone/0-BAT0/Temperature","alias":"","overrideLimitTemperatures":false,"warningTemperature":70,"meltdownTemperature":90,"virtual":false,"childSourceObjects":{"acpi/Thermal_Zone/0-BAT0/Temperature":{"temperature":0},"acpi/Thermal_Zone/1-x86_pkg_temp/Temperature":{"temperature":0},"lmsensors/BAT0-virtual-0/temp1":{"temperature":0},"lmsensors/applesmc-isa-0300/Right_Side__":{"temperature":0},"lmsensors/applesmc-isa-0300/TA0P":{"temperature":0},"lmsensors/applesmc-isa-0300/TB0T":{"temperature":0},"lmsensors/applesmc-isa-0300/TB1T":{"temperature":0},"lmsensors/applesmc-isa-0300/TB2T":{"temperature":0},"lmsensors/applesmc-isa-0300/TBXT":{"temperature":0},"lmsensors/applesmc-isa-0300/TC0C":{"temperature":0},"lmsensors/applesmc-isa-0300/TC0E":{"temperature":0},"lmsensors/applesmc-isa-0300/TC0F":{"temperature":0},"lmsensors/applesmc-isa-0300/TC0P":{"temperature":0},"lmsensors/applesmc-isa-0300/TC1C":{"temperature":0},"lmsensors/applesmc-isa-0300/TCGC":{"temperature":0},"lmsensors/applesmc-isa-0300/TCSA":{"temperature":0},"lmsensors/applesmc-isa-0300/TCXC":{"temperature":0},"lmsensors/applesmc-isa-0300/TH0A":{"temperature":0},"lmsensors/applesmc-isa-0300/TH0B":{"temperature":0},"lmsensors/applesmc-isa-0300/TH0C":{"temperature":0},"lmsensors/applesmc-isa-0300/TH0F":{"temperature":0},"lmsensors/applesmc-isa-0300/TH0R":{"temperature":0},"lmsensors/applesmc-isa-0300/TH0V":{"temperature":0},"lmsensors/applesmc-isa-0300/TH0a":{"temperature":0},"lmsensors/applesmc-isa-0300/TH0b":{"temperature":0},"lmsensors/applesmc-isa-0300/TH0c":{"temperature":0},"lmsensors/applesmc-isa-0300/THSP":{"temperature":0},"lmsensors/applesmc-isa-0300/TM0P":{"temperature":0},"lmsensors/applesmc-isa-0300/TMLB":{"temperature":0},"lmsensors/applesmc-isa-0300/TPCD":{"temperature":0},"lmsensors/applesmc-isa-0300/TW0P":{"temperature":0},"lmsensors/applesmc-isa-0300/Th1H":{"temperature":0},"lmsensors/applesmc-isa-0300/Ts0P":{"temperature":0},"lmsensors/applesmc-isa-0300/Ts0S":{"temperature":0},"lmsensors/applesmc-isa-0300/Ts1S":{"temperature":0},"lmsensors/coretemp-isa-0000/Core_0":{"temperature":0},"lmsensors/coretemp-isa-0000/Core_1":{"temperature":0},"lmsensors/coretemp-isa-0000/Package_id_0":{"temperature":0},"udisks/APPLE_SD_Card_Reader_000000000820":{"temperature":0},"udisks/APPLE_SSD_SD0128F_1407A2406855":{"temperature":0}}}]
+
+[Containments][1][Applets][54][Configuration][Appearance]
+showDate=true
+
+[Containments][1][Applets][55][Configuration][Appearance]
+dateFormat=isoDate
+showDate=true
+showSeparator=true
+
+[Containments][1][Applets][56][Configuration][Agenda]
+showWeekNumbers=true
+
+[Containments][1][Applets][57][Configuration][Appearance]
+dateFormat=customDate
+showDate=true
+
+[Containments][1][Applets][58]
+immutability=1
+plugin=org.kde.plasma.eventcalendar
+
+[Containments][1][Applets][58][Configuration]
+PreloadWeight=100
+
+[Containments][1][Applets][58][Configuration][Agenda]
+agendaWeatherOnRight=true
+
+[Containments][1][Applets][58][Configuration][Calendar]
+month_show_weeknumbers=true
+
+[Containments][1][Applets][58][Configuration][ConfigDialog]
+DialogHeight=910
+DialogWidth=1304
+
+[Containments][1][Applets][58][Configuration][Events]
+eventStartingNotificationEnabled=false
+eventStartingSfxEnabled=false
+
+[Containments][1][Applets][58][Configuration][General]
+clock_line_2_height_ratio=0.3
+clock_maxheight=23
+clock_mousewheel_down=
+clock_mousewheel_up=
+clock_timeformat=<b>ddd H:mm </b>
+clock_timeformat_2=d. MMMM yyyy
+widget_show_agenda=false
+
+[Containments][1][Applets][58][Configuration][Google Calendar]
+calendar_list=W10=
+events_pollinterval=60
+
+[Containments][1][Applets][58][Configuration][Weather]
+meteogram_gridColor=#454545
+meteogram_positiveTempColor=#336699
+weather_city_id=3067696
+
+[Containments][1][Applets][59][Configuration][General]
+containmentType=Plasma
+iconFillThickness=false
+iconSize=26
 
 [Containments][1][Applets][6]
 immutability=1
@@ -115,24 +181,27 @@ plugin=org.kde.plasma.trash
 [Containments][1][Applets][6][Configuration]
 PreloadWeight=0
 
+[Containments][1][Applets][60][Configuration][General]
+showApplicationIcon=true
+
+[Containments][1][Applets][61][Configuration][General]
+bold=true
+noWindowText=
+noWindowType=text
+showApplicationIcon=true
+textType=1
+
 [Containments][1][Applets][7]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][7][Configuration]
-PreloadWeight=29
+PreloadWeight=65
 SystrayContainmentId=8
 
 [Containments][1][Applets][7][Configuration][Containments][8]
 formfactor=2
 location=4
-
-[Containments][1][Applets][8]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][1][Applets][8][Configuration]
-PreloadWeight=0
 
 [Containments][1][Applets][8][Configuration][Appearance]
 customDateFormat=ddd dd.MM.yy
@@ -140,10 +209,6 @@ dateFormat=custom
 showDate=true
 showWeekNumbers=true
 use24hFormat=2
-
-[Containments][1][Applets][8][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
 
 [Containments][1][ConfigDialog]
 DialogHeight=92
@@ -153,7 +218,7 @@ DialogWidth=2560
 PreloadWeight=0
 
 [Containments][1][General]
-AppletOrder=2;50;3;46;6;7;8
+AppletOrder=2;50;3;46;6;7;58
 
 [Containments][35]
 activityId=a1656c76-7f54-4a6c-a5b7-005dc2a8c9ec
@@ -182,6 +247,37 @@ showToolbox=false
 [Containments][35][Wallpaper][org.kde.image][General]
 Image=file:///home/lelek/Pictures/Backgrounds/john-towner-154060-unsplash-modified.jpg
 
+[Containments][51]
+activityId=a1656c76-7f54-4a6c-a5b7-005dc2a8c9ec
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][51][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
+
+[Containments][51][Configuration]
+PreloadWeight=0
+
+[Containments][51][Wallpaper][org.kde.image][General]
+Image=file:///home/lelek/Pictures/Backgrounds/john-towner-154060-unsplash-modified.jpg
+
+[Containments][52]
+activityId=a1656c76-7f54-4a6c-a5b7-005dc2a8c9ec
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][52][Configuration]
+PreloadWeight=2
+
 [Containments][8]
 activityId=
 formfactor=2
@@ -196,7 +292,11 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][36][Configuration]
-PreloadWeight=0
+PreloadWeight=15
+
+[Containments][8][Applets][36][Configuration][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
 
 [Containments][8][Applets][37]
 immutability=1
@@ -245,7 +345,11 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][43][Configuration]
-PreloadWeight=0
+PreloadWeight=10
+
+[Containments][8][Applets][43][Configuration][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
 
 [Containments][8][Applets][44]
 immutability=1
@@ -259,7 +363,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][45][Configuration]
-PreloadWeight=0
+PreloadWeight=11
 
 [Containments][8][Applets][45][Configuration][ConfigDialog]
 DialogHeight=720

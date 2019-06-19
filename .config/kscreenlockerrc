@@ -6,3 +6,6 @@ Theme=org.kde.breezedark.desktop
 
 [Greeter][Wallpaper][org.kde.image][General]
 Image=file:///home/lelek/Pictures/Backgrounds/bg_black.png
+
+[Greeter][LnF][General]
+showMediaControls=false
