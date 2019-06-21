@@ -26,9 +26,13 @@ TabBoxAlternative=false
 BorderActivate=9
 BorderActivateCylinder=9
 BorderActivateSphere=9
+TouchBorderActivate=9
+TouchBorderActivateCylinder=9
+TouchBorderActivateSphere=9
 
 [Effect-DesktopGrid]
 BorderActivate=9
+TouchBorderActivate=9
 
 [Effect-FlipSwitch]
 TabBox=false
@@ -38,6 +42,9 @@ TabBoxAlternative=false
 BorderActivate=5
 BorderActivateAll=9
 BorderActivateClass=9
+TouchBorderActivate=7
+TouchBorderActivateAll=9
+TouchBorderActivateClass=9
 
 [ElectricBorders]
 Bottom=None
@@ -87,7 +94,7 @@ BorderActivate=9
 BorderAlternativeActivate=9
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
-DesktopMode=0
+DesktopMode=1
 HighlightWindows=true
 LayoutName=org.kde.breeze.desktop
 MinimizedMode=0
@@ -95,6 +102,8 @@ MultiScreenMode=0
 ShowDesktopMode=1
 ShowTabBox=true
 SwitchingMode=0
+TouchBorderActivate=9
+TouchBorderAlternativeActivate=9
 
 [TabBoxAlternative]
 ActivitiesMode=1
@@ -107,6 +116,12 @@ MultiScreenMode=0
 ShowDesktopMode=0
 ShowTabBox=true
 SwitchingMode=0
+
+[TouchEdges]
+Bottom=None
+Left=None
+Right=None
+Top=None
 
 [Windows]
 ActiveMouseScreen=false

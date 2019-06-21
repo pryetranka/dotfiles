@@ -6,3 +6,5 @@ RepeatRate=25
 
 [Mouse]
 XLbInptPointerAcceleration=0.4
+cursorSize=0
+cursorTheme=HighContrast
