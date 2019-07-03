@@ -106,6 +106,10 @@ Word Completion=true
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
+[KTextEditor::Search]
+Replace History=\\0
+Search History=\\\\r\\\\n,current
+
 [Konsole]
 AutoSyncronize=true
 RemoveExtension=false

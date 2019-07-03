@@ -38,7 +38,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][1][Applets][2][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][1][Applets][2][Configuration][ConfigDialog]
 DialogHeight=720
@@ -135,7 +135,7 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][1][Applets][58][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][1][Applets][58][Configuration][Agenda]
 agendaWeatherOnRight=true
@@ -196,7 +196,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][7][Configuration]
-PreloadWeight=67
+PreloadWeight=65
 SystrayContainmentId=8
 
 [Containments][1][Applets][7][Configuration][Containments][8]
@@ -292,7 +292,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][36][Configuration]
-PreloadWeight=12
+PreloadWeight=0
 
 [Containments][8][Applets][36][Configuration][ConfigDialog]
 DialogHeight=720
@@ -345,7 +345,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][43][Configuration]
-PreloadWeight=7
+PreloadWeight=0
 
 [Containments][8][Applets][43][Configuration][ConfigDialog]
 DialogHeight=720
@@ -363,7 +363,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][45][Configuration]
-PreloadWeight=8
+PreloadWeight=0
 
 [Containments][8][Applets][45][Configuration][ConfigDialog]
 DialogHeight=720
