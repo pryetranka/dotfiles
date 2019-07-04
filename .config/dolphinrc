@@ -17,6 +17,7 @@ PreviewSize=22
 Favorites=
 
 [General]
+SplitView=true
 Version=200
 ViewPropsTimestamp=2019,5,31,23,5,58
 
